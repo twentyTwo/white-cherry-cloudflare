@@ -1,0 +1,30 @@
+{
+  "name": "white-cherry-32bd",
+  "main": "./dist/index.js",
+  "assets": {
+    "directory": "./dist"
+  },
+  "compatibility_date": "2025-04-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "upload_source_maps": true,
+  "vars": {
+    "EXAMPLE_VALUE": "example_value"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "restless-limit-d251-d1",
+      "database_id": "1677d861-4bbb-4a06-bf15-54129876f8ab"
+    }
+  ],
+  "workflows": [
+    {
+      "name": "white-cherry-32bd-customer-workflow",
+      "binding": "CUSTOMER_WORKFLOW",
+      "class_name": "CustomerWorkflow"
+    }
+  ]
+}
